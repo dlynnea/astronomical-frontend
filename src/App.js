@@ -4,6 +4,7 @@ import './App.scss';
 import Container from './components/Container'
 import logo from '../src/stellarium_logo.png'
 
+
 class App extends Component {
 
   state = {
@@ -31,6 +32,7 @@ class App extends Component {
 render() {
     return (
       <div className="App">
+        <h1>Stellarium</h1>
         <header> 
             <img src={logo} className="logo" alt="home"/>
         </header>
