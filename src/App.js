@@ -32,7 +32,6 @@ class App extends Component {
 render() {
     return (
       <div className="App">
-        <h1>Stellarium</h1>
         <header> 
             <img src={logo} className="logo" alt="home"/>
         </header>
@@ -58,6 +57,8 @@ render() {
 }
 
 export default App;
+
+
 
 
 // {name: "Cassiopeia – The Queen"},
