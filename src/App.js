@@ -35,21 +35,20 @@ render() {
         </header>
         <section className="landing">
         <h2>Welcome to Stellarium</h2>
-        <h3>Select you Hemisphere:</h3>
         <button 
         onClick={this.enterNorthern} 
-        className="enter-card">Northern
+        className="enter-card">Click Here
         </button>
         <button 
         onClick={this.enterSouthern} 
         className="enter-card">Southern
         </button>
+        </section>
         {
         this.state.isConstCardShowing
           ? <Container constellations={this.state.constellations}/>
           : null
         }
-        </section>
       </div>
     );
   }

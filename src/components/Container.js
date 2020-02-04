@@ -6,7 +6,8 @@ export default function Container(props) {
 
     const allConstellations = props.constellations.map(constellation => {
         return (
-            <div className='const-all'>
+            <span className='const-all'>
+                <span>
                 <Card 
                 id={constellation.id}
                 name={constellation.name}
@@ -16,21 +17,13 @@ export default function Container(props) {
                 mythology={constellation.mythology}
                 main_stars={constellation.main_stars}
                 />
-            </div>
+                </span>
+            </span>
         )
     })
     return(
-        <div className="const-container">
-            {allConstellations}
-        </div>
+        <span className="const-container">
+            <span>{allConstellations}</span>
+        </span>
     )
 }
-
-// name={constellation.name}
-// photo={constellation.photo}
-// location={constellation.location}
-// fun_fact={constellation.fun_fact}
-// mythology={constellation.mythology}
-// main_stars={constellation.main_stars}
-
-// constellation={constellation}
