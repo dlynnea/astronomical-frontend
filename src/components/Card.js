@@ -16,9 +16,9 @@ function Card(props) {
         return(
             <section className="card">
             {/* <div className="front"> */}
-                <h3>{props.name}</h3>
+                <h2>{props.name}</h2>
                 <img src={props.photo} />
-                <p>{props.location}</p>
+                <p><i class="fa fa-location-arrow"></i> {props.location}</p>
                 <h4>{props.fun_fact}</h4>
             {/* </div>
             <div className="back"> */}

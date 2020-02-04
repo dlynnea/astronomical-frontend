@@ -3,6 +3,7 @@ import './App.css';
 import './App.scss';
 import Container from './components/Container'
 
+
 class App extends Component {
 
   state = {
@@ -31,6 +32,7 @@ render() {
     return (
       <div className="App">
         <header>
+
         <h1>Stellarium</h1>
         </header>
         <section className="landing">
