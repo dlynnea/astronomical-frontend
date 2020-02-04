@@ -59,6 +59,8 @@ render() {
 export default App;
 
 
+
+
 // {name: "Cassiopeia – The Queen"},
 // {photo: "https://i.ibb.co/Tw5JJ8s/cassiopeia.jpg"},
 // {location: "Northern hemisphere"},
