@@ -19,11 +19,11 @@ function Card(props) {
                 <h2>{props.name}</h2>
                 <img src={props.photo} />
                 <p><i class="fa fa-location-arrow"></i> {props.location}</p>
-                <h4>{props.fun_fact}</h4>
+                <h3>{props.fun_fact}</h3>
             {/* </div>
             <div className="back"> */}
-                <h4>{props.mythology}</h4>
-                <h3>{props.main_stars}</h3>
+                <h4>Mythology: {props.mythology}</h4>
+                <h2>Main Stars: {props.main_stars}</h2>
             {/* </div> */}
             </section>
         )

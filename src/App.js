@@ -39,11 +39,7 @@ render() {
         <h2>Welcome to Stellarium</h2>
         <button 
         onClick={this.enterNorthern} 
-        className="enter-card">Click Here
-        </button>
-        <button 
-        onClick={this.enterSouthern} 
-        className="enter-card">Southern
+        className="enter-card">Constellations
         </button>
         </section>
         {
