@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import './App.scss';
 import Container from './components/Container'
+import logo from '../src/stellarium_logo.png'
 
 
 class App extends Component {
@@ -31,9 +32,14 @@ class App extends Component {
 render() {
     return (
       <div className="App">
+<<<<<<< HEAD
         <header>
 
         <h1>Stellarium</h1>
+=======
+        <header> 
+            <img src={logo} className="logo" alt="home"/>
+>>>>>>> 078b2aea997543a5b31955da6b3606bec7cd803b
         </header>
         <section className="landing">
         <h2>Welcome to Stellarium</h2>
